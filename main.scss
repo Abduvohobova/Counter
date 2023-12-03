@@ -144,7 +144,7 @@
 @media (max-width: 450px) {
     .container{
         max-width: 450px;
-        padding: 20px;
+        padding: 50px 20px;
         .dayNight{
             div{
                 font-size: 30px;
@@ -157,7 +157,8 @@
             gap: 40px;
             #text{
                 display: flex;
-                flex-wrap: wrap;
+                // flex-wrap: wrap;
+                flex-direction: column;
                 gap: 15px;
                 button{
                     font-size: 14px;
