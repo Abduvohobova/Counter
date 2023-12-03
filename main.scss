@@ -7,7 +7,6 @@
 .container{
     border: 20px double blue;
     width: 100%;
-    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,7 +144,8 @@
 @media (max-width: 450px) {
     .container{
         max-width: 450px;
-        padding: 20px;
+        padding: 50px 20px;
+        border: 10px double blue;
         .dayNight{
             div{
                 font-size: 30px;
@@ -158,7 +158,8 @@
             gap: 40px;
             #text{
                 display: flex;
-                flex-wrap: wrap;
+                // flex-wrap: wrap;
+                flex-direction: column;
                 gap: 15px;
                 button{
                     font-size: 14px;
@@ -168,7 +169,7 @@
             .card{
                 display: flex;
                 flex-wrap: wrap;
-                justify-content: center;
+                justify-content: space-around;
                 gap: 10px;
                 row-gap: 15px;
             }
