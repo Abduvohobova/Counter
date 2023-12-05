@@ -1,2 +1,0 @@
-# tasbeh
-# counterApp
